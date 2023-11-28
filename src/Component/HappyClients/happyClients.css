@@ -1,0 +1,16 @@
+.hapyClient-wrapper{
+    background-color: var(--css-primary);
+ padding: 20px
+}
+.happyClient-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-title{
+    color: var(--css-white);
+    font-weight: 800;
+    font-size: 45px;
+    width: 374px;
+    height: 154px;
+}

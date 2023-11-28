@@ -1,0 +1,50 @@
+:root {
+  --css-primary: #1d1d1d;
+  --css-black: #111111;
+  --css-yellow: #e3b748;
+  --css-white: #ffffff;
+  --css-grey: #2E2E2E
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  /* width: 100vw; */
+font-family: 'Inter', sans-serif;
+}
+body {
+  margin: 0px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  /* //it is for safari */
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}

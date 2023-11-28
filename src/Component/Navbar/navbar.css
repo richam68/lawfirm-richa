@@ -1,0 +1,33 @@
+.navbar-container{
+    background-color: var(--css-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 12px;
+}
+.image-wrapper{
+   width: 143px;
+   height: 33.3px;
+   background-repeat: no-repeat;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 431px;
+    height: 26px;
+    color: var(--css-white);
+    font-family: inter;
+}
+.navbar-button{
+    width: 172px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+}
+.button-section{
+    background: none;
+    color: white;
+    border: solid 2px white;
+}

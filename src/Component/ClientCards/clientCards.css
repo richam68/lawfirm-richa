@@ -1,0 +1,40 @@
+.client-card-main-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.client-container {
+   
+    border: 2px solid var(--css-grey);
+    border-radius: 14px;
+}
+.main-section{
+    width: 259px;
+    height: 277px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    padding: 15px;
+}
+.client-name{
+    color: var(--css-white);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.client-intro{
+    color: var(--css-white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.client-description{
+    width: 223px;
+    opacity: 30%;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--css-white);
+    line-height: 19.75px;
+}

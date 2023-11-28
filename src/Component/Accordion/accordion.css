@@ -1,0 +1,13 @@
+.MuiAccordion-root{
+    background-color: #1d1d1d !important;
+    box-shadow: none !important;
+    color: var(--css-white) !important;
+}
+.MuiAccordion-root ::before{
+    color: var(--css-white) !important;
+}
+.MuiSvgIcon-root{
+    background-color: var(--css-yellow) !important;
+    border-radius: 50%;
+    color: var(--css-black)
+}

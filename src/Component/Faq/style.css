@@ -1,0 +1,12 @@
+.question-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--css-primary);
+    color: var(--css-white);
+    padding: 12px
+}
+.question-content{
+    width: 564px;
+    padding: 12px;
+    margin-top: 25px
+}
